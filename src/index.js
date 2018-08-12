@@ -1,8 +1,28 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import 'semantic-ui-css/semantic.min.css';
+// import ResponsiveContainer from './ResponsiveContainer'
+// import Content from './Content'
+// import Footer from './Footer'
+import WorkInProgress from './WorkInProgress'
 import registerServiceWorker from './registerServiceWorker';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+// const render = () => {
+//   ReactDOM.render(
+//     <ResponsiveContainer>
+//       <Content />
+//       <Footer />
+//     </ResponsiveContainer>,
+//     document.getElementById('root')
+//   );
+// }
+
+const render = () => {
+  ReactDOM.render(
+    <WorkInProgress /> ,
+    document.getElementById('root')
+  )
+}
+
+render()
 registerServiceWorker();
