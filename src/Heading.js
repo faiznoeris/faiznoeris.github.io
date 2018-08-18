@@ -34,7 +34,7 @@ class Heading extends Component {
             marginTop: mobile ? '0.5em' : '1.5em',
           }}
         />
-        <Button primary size='huge'>
+        <Button primary size='huge' disabled>
           See my resume
           <Icon name='right arrow' />
         </Button>
